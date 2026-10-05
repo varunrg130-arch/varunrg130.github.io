@@ -1,47 +1,8 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#111827"><title>My Documents</title>
-<style>
-*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px 16px 36px;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#172033;background:#f3f5f9}
-.wrap{width:min(720px,100%);margin:0 auto}header{padding:28px 24px;margin-bottom:20px;border-radius:24px;color:white;background:linear-gradient(135deg,#111827,#263b5c);box-shadow:0 10px 28px #11182724}
-h1{margin:0 0 6px;font-size:clamp(25px,6vw,32px)}header p{margin:0;color:#d6deeb;font-size:14px}
-.label{margin:0 0 12px 4px;color:#667085;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
-.card{display:flex;align-items:center;gap:12px;min-height:88px;padding:15px;background:white;border:1px solid #e6e9ef;border-radius:17px;text-decoration:none;color:inherit;box-shadow:0 3px 12px #1018280b}
-.card:active{transform:scale(.985)}.card:focus-visible{outline:3px solid #7899d4;outline-offset:3px}
-.icon{width:46px;height:46px;flex:0 0 46px;display:grid;place-items:center;border-radius:14px;background:#f0f3f8;font-size:23px}
-.copy{min-width:0;flex:1}.name{display:block;font-size:14px;font-weight:750;line-height:1.3}
-.hint{display:block;margin-top:4px;color:#737d8d;font-size:11px;line-height:1.35}.arrow{color:#8792a3;font-size:17px}
-footer{margin-top:20px;padding:0 8px;color:#737d8d;font-size:12px;line-height:1.5;text-align:center}
-@media(max-width:480px){body{padding:16px 13px 28px}header{padding:24px 20px;border-radius:20px}.grid{grid-template-columns:1fr;gap:10px}.card{min-height:80px}}
-</style></head><body><main class="wrap">
-<header><h1>📁 My Documents</h1><p>Your personal document dashboard</p></header>
-<p class="label">Document folders</p><section class="grid" aria-label="Document folders">
-<a class="card" href="https://drive.google.com/drive/folders/1zBDT-OrnJt3KT3eQgXS4NieQj-0sRGL2" target="_blank" rel="noopener noreferrer">
-      <span class="icon">🪪</span><span class="copy"><span class="name">Identity</span><span class="hint">Aadhaar, PAN, passport and other ID</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1u0TT_DGonEKengkMxjU4Aqs25yO3zhVf" target="_blank" rel="noopener noreferrer">
-      <span class="icon">💰</span><span class="copy"><span class="name">Financial</span><span class="hint">Bank, tax and insurance records</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1sgbGd8K6dt8JBlMpspUACx2FydGNsLkt" target="_blank" rel="noopener noreferrer">
-      <span class="icon">🎓</span><span class="copy"><span class="name">Education</span><span class="hint">Marks cards and certificates</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/10EsCp5j4JSLjoqySiRsdrqPlhfmIUxFy" target="_blank" rel="noopener noreferrer">
-      <span class="icon">🏥</span><span class="copy"><span class="name">Medical</span><span class="hint">Reports and medical records</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1u1joSUhWxQPt7J3amwMmH3ArcOZUYUxd" target="_blank" rel="noopener noreferrer">
-      <span class="icon">🏠</span><span class="copy"><span class="name">Property & Address</span><span class="hint">Address and property documents</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1B1rciHk1Jdl817ompF4LhNzafn4YSS7T" target="_blank" rel="noopener noreferrer">
-      <span class="icon">💼</span><span class="copy"><span class="name">Career</span><span class="hint">Resume and job documents</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1vVLJQgNmPXJuuNLkJfxzEjx5S_Pl7dcK" target="_blank" rel="noopener noreferrer">
-      <span class="icon">📄</span><span class="copy"><span class="name">Other</span><span class="hint">Miscellaneous documents</span></span><span class="arrow">↗</span>
-    </a>
-<a class="card" href="https://drive.google.com/drive/folders/1ernMcdr7y3arscpVemVl-iuh_T_U5uCk" target="_blank" rel="noopener noreferrer">
-      <span class="icon">⭐</span><span class="copy"><span class="name">Important</span><span class="hint">Frequently used documents</span></span><span class="arrow">↗</span>
-    </a>
-
-</section><footer>Your files stay in Google Drive. Sign in to the Google account that has permission to access each folder.</footer>
-</main></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111827"><title>My Documents</title><style>*{box-sizing:border-box}body{margin:0;background:#f3f4f6;color:#111827;font-family:Arial,sans-serif}.wrap{max-width:700px;margin:auto;padding:22px 16px}header{background:#111827;color:white;border-radius:22px;padding:25px 22px;margin-bottom:20px}h1{margin:0 0 6px}header p{margin:0;color:#d1d5db}.grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.card{display:flex;align-items:center;gap:12px;min-height:88px;background:white;border:1px solid #e5e7eb;border-radius:17px;padding:15px;text-decoration:none;color:#111827;box-shadow:0 3px 12px #0000000d}.icon{width:46px;height:46px;display:grid;place-items:center;background:#f3f4f6;border-radius:13px;font-size:23px}.text{flex:1}.arrow{color:#9ca3af}footer{text-align:center;color:#6b7280;font-size:11px;margin-top:20px}@media(max-width:480px){.grid{grid-template-columns:1fr}}</style></head><body><div class="wrap"><header><h1>📁 My Documents</h1><p>Your personal document dashboard</p></header><div class="grid"><a class="card" href="https://drive.google.com/drive/folders/1zBDT-OrnJt3KT3eQgXS4NieQj-0sRGL2" rel="noopener"><span class="icon">🪪</span><span class="text"><strong>Identity</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1u0TT_DGonEKengkMxjU4Aqs25yO3zhVf" rel="noopener"><span class="icon">💰</span><span class="text"><strong>Financial</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1sgbGd8K6dt8JBlMpspUACx2FydGNsLkt" rel="noopener"><span class="icon">🎓</span><span class="text"><strong>Education</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/10EsCp5j4JSLjoqySiRsdrqPlhfmIUxFy" rel="noopener"><span class="icon">🏥</span><span class="text"><strong>Medical</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1u1joSUhWxQPt7J3amwMmH3ArcOZUYUxd" rel="noopener"><span class="icon">🏠</span><span class="text"><strong>Property & Address</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1B1rciHk1Jdl817ompF4LhNzafn4YSS7T" rel="noopener"><span class="icon">💼</span><span class="text"><strong>Career</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1vVLJQgNmPXJuuNLkJfxzEjx5S_Pl7dcK" rel="noopener"><span class="icon">📄</span><span class="text"><strong>Other</strong></span><span class="arrow">↗</span></a>
+<a class="card" href="https://drive.google.com/drive/folders/1ernMcdr7y3arscpVemVl-iuh_T_U5uCk" rel="noopener"><span class="icon">⭐</span><span class="text"><strong>Important</strong></span><span class="arrow">↗</span></a></div><footer>Your documents remain in your private Google Drive folders.</footer></div></body></html>
